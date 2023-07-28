@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: ktxv
     spec:
       containers:
-      - image: java-quarkus-image:latest
+      - image: quay.io/redhat-appstudio-qe/byoc-hhra-tenant/byoc-app-vugi/ktxv@sha256:4e96e141664b53122b699ac1fa0164e200bfc2a073e387ac7dc221a5427fb801
         name: my-java-quarkus
         ports:
         - containerPort: 8081
